@@ -1,0 +1,1 @@
+import{r as l,h as t}from"./p-887cd1c2.js";const n=class{constructor(t){l(this,t)}render(){return t("div",null,t("hr",null),t("my-timer",null),t("hr",null),t("my-button",null),t("hr",null),t("my-form",null),t("hr",null),t("my-input",null),t("hr",null),t("text-field",{text:"Hello from text stencil component--- hey basit"}))}};export{n as my_app}

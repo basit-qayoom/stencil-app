@@ -1,0 +1,17 @@
+<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>Stencil Component Starter</title> <script type="module" data-stencil data-resources-url="/build/" data-stencil-namespace="stencil-pw">import{p as t,b as e}from"/build/p-887cd1c2.js";export{s as setNonce}from"./p-887cd1c2.js";(()=>{const e=import.meta.url,p={};return""!==e&&(p.resourcesUrl=new URL(".",e).href),t(p)})().then((t=>e([["p-c462350f",[[1,"my-input",{inputText:[32]}]]],["p-a6c75999",[[1,"my-timer",{timerInSeconds:[32]}]]],["p-3116e087",[[1,"my-button"],[1,"my-form",{email:[32],password:[32]}],[1,"text-field",{text:[1]}]]],["p-f125b696",[[1,"my-app"]]]],t)));</script> <script nomodule="" src="/build/stencil-pw.js" data-stencil></script> </head> <body> <h1>Stencil App</h1> <my-app></my-app> <script data-build="2023-08-10T08:36:13">
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  window.addEventListener('load', function() {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(reg) {
+    reg.onupdatefound = function() {
+      var installingWorker = reg.installing;
+      installingWorker.onstatechange = function() {
+      if (installingWorker.state === 'installed') {
+        window.dispatchEvent(new Event('swUpdate'))
+      }
+      }
+    }
+    })
+    .catch(function(err) { console.error('service worker error', err) });
+  });
+}</script></body></html>

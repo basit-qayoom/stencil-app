@@ -1,0 +1,1 @@
+import{r as registerInstance,h}from"./index-f984bf4c.js";var MyTimer=function(){function e(e){var n=this;registerInstance(this,e);this.timerInSeconds=0;setInterval((function(){n.timerInSeconds++}),1e3)}e.prototype.render=function(){return h("p",null,"Here is running timer ",this.timerInSeconds," Seconds")};return e}();export{MyTimer as my_timer};

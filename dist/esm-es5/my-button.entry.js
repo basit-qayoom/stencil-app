@@ -1,0 +1,1 @@
+import{r as registerInstance,h}from"./index-f984bf4c.js";var MyButton=function(){function t(t){registerInstance(this,t)}t.prototype.render=function(){return h("button",null,"Button")};return t}();export{MyButton as my_button};

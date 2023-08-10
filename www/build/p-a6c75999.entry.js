@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-887cd1c2.js";const t=class{constructor(s){r(this,s),this.timerInSeconds=0,setInterval((()=>{this.timerInSeconds++}),1e3)}render(){return s("p",null,"Here is running timer ",this.timerInSeconds," Seconds")}};export{t as my_timer}
